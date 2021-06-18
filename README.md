@@ -6,4 +6,4 @@ Desktop First. Фиксированная вёрстка с использова
 
 ![DELLiFOLiO - Entire-Page](dellifolio.png)
 ![DELLiFOLiO - About](dellifolio-about.png)
-![DELLiFOLiO - Work](dellifolio.png)
+![DELLiFOLiO - Work](dellifolio-work.png)
