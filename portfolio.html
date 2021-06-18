@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Portfolio</title>
+	<meta name="description" content="DELLiFOLiO Website">
+	<meta name="keywords" content="DELLiFOLiO, HTML5, CSS3">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/feature-carousel.css">
+	<script src="js/jquery-1.7.min.js"></script>
+	<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+	<!--[if IE 9]><link rel="stylesheet" href="css/ie9.css"><![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" href="css/ie8.css"><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css"><![endif]-->
+	<!--[if lt IE 7]>
+		<script src="js/DD_belatedPNG.js"></script>
+		<script>
+			DD_belatedPNG.fix('.slider-wrap, .carousel-left, .carousel-right, .content, .content-wrap, .main-title, .follow-me');
+		</script>
+	<![endif]-->
+	<!--[if IE 6]><link rel="stylesheet" href="css/ie6.css"><![endif]-->
+	<!--[if IE 5]><link rel="stylesheet" href="css/ie5.css"><![endif]-->
+</head>
+<body>
+	<!-- Header -->
+	<header>
+	<!-- Main Menu -->
+		<div id="menu-wrap" class="container">
+			<nav>
+				<ul>
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="portfolio.html">Work</a></li>
+					<li class="last"><a href="#">Contact Me</a></li>
+				</ul>
+			</nav>
+			<!-- Logo -->
+			<a href="index.html" class="logo"><span class="light-green">DELLi</span>FOLiO</a>
+			<!-- Follow Me -->
+			<div class="follow-me"><a href="twitter.com">Follow Me</a></div>
+		</div>
+		<!-- Slider -->
+		<div id="slider-wrap" class="slider-wrap">
+			<div class="carousel-container">
+				<div id="carousel">
+					<div class="carousel-feature">
+						<a href="#"><img class="carousel-image" alt="Image Caption" src="images/img1.png"></a>
+					</div>
+					<div class="carousel-feature">
+						<a href="#"><img class="carousel-image" alt="Image Caption" src="images/img2.png"></a>
+					</div>
+					<div class="carousel-feature">
+						<a href="#"><img class="carousel-image" alt="Image Caption" src="images/img2.png"></a>
+					</div>
+				</div>
+				<div id="carousel-left"><img src="images/prev.png" class="carousel-left" alt="prev"></div>
+				<div id="carousel-right"><img src="images/next.png" class="carousel-right" alt="next"></div>
+			</div>
+		</div>
+	</header>
+	<!-- Content -->
+	<section id="about-section">
+		<div id="content-wrap" class="content-wrap">
+		<!-- Portfolio -->
+			<div id="about-content" class="container content">
+				<div class="portfolio">
+					<h2 class="portfolio-title"><span class="portfolio-title-text">My Portfolio</span></h2>
+					<article class="main-portfolio">
+						<img src="images/portfolio-img.png" alt="Portfolio img 1">
+						<h3>Website Design 1</h3>
+						<p>Suspendi disse cond imen tum adipiscing Sed cursus. Donec suscipit tristique dolor.Duis nibh. Sed cursus. Donec suscipit. </p>
+						<a href="#">Launch Project »</a>
+					</article>
+					<article class="main-portfolio">
+						<img src="images/portfolio-img.png" alt="Portfolio img 2">
+						<h3>Website Design 1</h3>
+						<p>Suspendi disse cond imen tum adipiscing Sed cursus. Donec suscipit tristique dolor.Duis nibh. Sed cursus. Donec suscipit. </p>
+						<a href="#">Launch Project »</a>
+					</article>
+					<article class="main-portfolio">
+						<img src="images/portfolio-img.png" alt="Portfolio img 3">
+						<h3>Website Design 1</h3>
+						<p>Suspendi disse cond imen tum adipiscing Sed cursus. Donec suscipit tristique dolor.Duis nibh. Sed cursus. Donec suscipit. </p>
+						<a href="#">Launch Project »</a>
+					</article>
+				</div>
+				<!-- Sidebar -->
+				<aside>
+					<div class="information">
+						<h2><span class="information">Information</span></h2>
+						<ul class="information-menu">
+							<li><a href="#">LinkedIn Profile</a></li>
+							<li><a href="#">Follow me on Twitter</a></li>
+							<li><a href="#">RSS Subscribtion</a></li>
+							<li><a href="#">Professional Resumé</a></li>
+							<li class="last-menu-item"><a href="#">Interested? Hire Me!</a></li>
+						</ul>
+					</div>
+					<div class="where">
+						<h2><span class="where">Where?</span></h2>
+						<p>125 Donec suscipit<br>St.Pellentesque, AM 01588</p>
+						<p class="last">Office: 1.045.125.2558<br>Fax: 1.045.125.2558<br><a href="#" class="read-more">info@mycompany.com</a></p>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<p>©2009 DelliTemplates - All Rights Reserved.</p>
+			<ul>
+				<li>Themes by <span class="light">Dellustrations</span> - <a href="index.html">Home</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="portfolio.html">Work</a></li>
+				<li class="last-item"><a href="#">Contact Me</a></li>
+			</ul>
+		</div>
+	</footer>
+	<!-- Carousel initialization -->
+    <script src="js/jquery.featureCarousel.js"></script>
+    <script>
+      $(document).ready(function() {
+        var carousel = $("#carousel").featureCarousel({
+        });
+
+        $("#but_prev").click(function () {
+          carousel.prev();
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+        });
+      });
+    </script>
+</body>
+</html>

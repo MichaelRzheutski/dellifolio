@@ -1,0 +1,520 @@
+/*************** Font Import ***************/
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../fonts/CenturyGothic.eot');
+	src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CenturyGothic.woff2') format('woff2'),
+		url('../fonts/CenturyGothic.woff') format('woff'),
+		url('../fonts/CenturyGothic.ttf') format('truetype'),
+		url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeue-Bold.eot');
+	src: url('../fonts/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeue-Bold.woff2') format('woff2'),
+		url('../fonts/HelveticaNeue-Bold.woff') format('woff'),
+		url('../fonts/HelveticaNeue-Bold.ttf') format('truetype'),
+		url('../fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/*************** Common Styles ***************/
+body {
+	font: 14px "Century Gothic", Arial, sans-serif;
+	color : #fff;
+	background : #2c2c2c;
+}
+
+img{
+	border : none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Container Class */
+.container {
+	width: 960px;
+	margin: auto;
+	text-align: center;
+}
+
+/*************** header ***************/
+header {
+	height: 437px;
+	background: url(../images/header-bg.png) repeat-x;
+}
+
+/* Main Menu */
+#menu-wrap{
+	height: 90px;
+	border-bottom: 2px solid #2b2b2b;
+	position: relative;
+	z-index: 10;
+}
+
+nav {
+	height: 90px;
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	padding-top: 46px;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+	margin-right: 30px;
+}
+
+nav ul li a {
+	color: #484848;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #aaa;
+}
+
+nav ul li a.active {
+	color: #94c950;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+/* Logo */
+.logo {
+	float: left;
+	display: block;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 30px;
+	margin: 0;
+	text-decoration: none;
+	color: #fff;
+}
+
+.light-green {
+	color: #94c950;
+}
+
+/* Slider */
+#slider-wrap {
+	height: 365px;
+	background: url(../images/light.png) no-repeat center top;
+}
+
+/*************** Content ***************/
+section {
+	height: 540px;
+	background: url(../images/content-bg.png) repeat-x;
+}
+
+#content-wrap {
+	background: url(../images/content-wrap-bg.png) no-repeat center -80px;
+}
+
+#content {
+	background: url(../images/paper.png) no-repeat center top;
+	height: 540px;
+	color: #000;
+	text-align: left;
+}
+
+/* Main Title */
+#content h1.main-title {
+	width: 860px;
+	height: 175px;
+	margin: 0 40px;
+	padding: 40px 0 0 20px;
+	color: #b9b9b9;
+	font: 45.72px 'Helvetica Neue', Arial, sans-serif;
+}
+
+span.dark {
+	color: #5d5d5d;
+}
+
+span.green {
+	color: #8eb353;
+}
+
+/* Content Articles */
+#content article {
+	width: 256px;
+	float: left;
+	margin-left: 35px;
+}
+
+#content article.about-me {
+	margin-left: 60px;
+}
+
+#content article h2 {
+	height: 40px;
+	font-size: 30px;
+	background: #8ab546;
+	color: #fff;
+	box-shadow: 4px 5px 1px #d4d4d4;
+}
+
+#content article.about-me h2 span {
+	padding: 3px 0 0 10px;
+	display: block;
+	background: url(../images/scissors.png) no-repeat 222px 7px;
+}
+
+#content article.my-portfolio-index h2 span {
+	padding: 3px 0 0 10px;
+	display: block;
+	background: url(../images/lovefolio.png) no-repeat 222px 7px;
+}
+
+#content article.contact-me h2 span {
+	padding: 3px 0 0 10px;
+	display: block;
+	background: url(../images/phone.png) no-repeat 222px 7px;
+}
+
+#content article p {
+	line-height: 20px;
+	color: #3c3d3e;
+	margin-top: 25px;
+}
+
+#content article a {
+	text-decoration: none;
+	color: #b0b0b0;
+	font-weight: bold;
+	margin-top: 20px;
+	display: block;
+}
+
+#content article a:hover {
+	color: #58801a;
+}
+
+/*************** Footer ***************/
+footer {
+	height: 45px;
+	color: #4e4e4e;
+	margin-top: 15px;
+}
+
+footer p {
+	text-align: left;
+	float: left;
+	margin: 0;
+}
+
+footer ul {
+	float: right;
+	margin-top: 0;
+}
+
+footer ul li {
+	float: left;
+	padding: 0 10px;
+	border-right: 1px solid #4e4e4e;
+}
+
+footer ul li a {
+	color: #4e4e4e;
+	text-decoration: none;
+}
+
+footer ul li a:hover {
+	color: #aaa;
+}
+
+span.light {
+	color: #898989;
+}
+
+footer ul li:last-child {
+	border-right: none;
+}
+
+/* Follow Me */
+.follow-me {
+	background: url(../images/follow-me.png) no-repeat;
+	height: 80px;
+	width: 127px;
+	position: absolute;
+	left: 280px;
+	top: 50px;
+	z-index: 10;
+}
+
+.follow-me a {
+	display: block;
+	text-indent: -9999px;
+	width: 83px;
+	height: 30px;
+	margin-left: 43px;
+}
+
+/*************** About Me Page ***************/
+#about-section {
+	height: 813px;
+}
+
+/* About */
+#about-content {
+	background: url(../images/about-content-bg.png) no-repeat center top;
+	color: #000;
+	text-align: left;
+	height: 813px;
+}
+
+.about, .portfolio {
+	height: 540px;
+	padding: 1px;
+	width: 526px;
+	margin: 0 58px;
+	float: left;
+}
+
+.about p, .portfolio p {
+	line-height: 20px;
+	color: #3c3d3e;
+	margin-top: 15px;
+}
+
+.about a, .portfolio a {
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #b0b0b0;
+}
+
+.about a:hover, .portfolio a:hover {
+	color: #58801a;
+}
+
+h2.about-title {
+	height: 40px;
+	font-size: 30px;
+	background: #8ab546;
+	color: #fff;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	box-shadow: 4px 5px 1px #d4d4d4;
+}
+
+span.about-title-text {
+	padding: 2px 0 0 10px;
+	display: block;
+	background: url(../images/scissors.png) no-repeat 450px 7px;
+}
+
+/* Feedback */
+form {
+	height: 400px;
+	width: 527px;
+}
+
+form fieldset {
+	border: none;
+	padding: 0;
+}
+form fieldset legend {
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+form input.full-name, input.email {
+	width: 280px;
+	height: 40px;
+	font-size: 20px;
+	border: 1px solid #909090;
+	background: #eee;
+	padding-left: 5px;
+	box-shadow: inset 2px 2px 0 #e0e0e0;
+}
+
+form textarea {
+	width: 517px;
+	height: 170px;
+	display: block;
+	font-size: 16px;
+	border: 1px solid #909090;
+	background: #eee;
+	padding-left: 5px;
+	overflow: auto;
+	box-shadow: inset 2px 2px 0 #e0e0e0;
+	resize: none;
+}
+
+form input.send {
+	width: 140px;
+	height: 40px;
+	cursor: pointer;
+	border: 0;
+	float: right;
+	margin-top: 10px;
+	margin-right: -1px;
+	padding: 0;
+	color: #fff;
+	font: bold 14px Verdana, sans-serif;
+	opacity: 0.9;
+	background: linear-gradient(to bottom, #7ca0d3 0%,#2989d8 50%,#207cca 51%,#3a65ad 100%);
+}
+
+form input.send:hover {
+	opacity: 1;
+}
+
+/*************** Sidebar ***************/
+aside {
+	float: right;
+	margin-right: 60px;
+	width: 255px;
+}
+
+aside h2 {
+	height: 40px;
+	font-size: 30px;
+	background: #8ab546;
+	color: #fff;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	box-shadow: 4px 5px 1px #d4d4d4;
+}
+
+/* Information, Where, My Portfolio - Common Styles */
+aside h2 span.information, .where, .my-portfolio {
+	display: block;
+	padding: 2px 0 0 10px;
+}
+aside div.where, div.my-portfolio {
+	padding-left: 0;
+}
+
+/* Information */
+aside h2 span.information {
+	background: url(../images/information.png) no-repeat 222px 7px;
+}
+
+ul.information-menu {
+	padding-left: 5px;
+	margin: 0;
+}
+
+ul.information-menu li {
+	height: 35px;
+	background: url(../images/menu-separate.png) repeat-x left bottom;
+}
+
+ul.information-menu li.last-menu-item{
+	background: none;
+}
+
+ul.information-menu li a {
+	display: block;
+	color: #5078b9;
+	font: bold 14px Verdana, sans-serif;
+	text-decoration: none;
+	padding-top: 9px;
+	background: url(../images/sidebar-menu-arrow.png) no-repeat 225px bottom;
+}
+
+ul.information-menu li a:hover {
+	background: url(../images/sidebar-menu-arrow-hover.png) no-repeat 225px bottom;
+	color: #2d5390;
+}
+
+/* Where */
+.where h2 {
+	margin-top: 30px;
+}
+
+aside h2 span.where {
+	background: url(../images/phone.png) no-repeat 222px 7px;
+}
+
+div.where p {
+	margin-bottom: 20px;
+	color: #3c3d3e;
+	line-height: 18px;
+}
+
+div.where a, .my-portfolio a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #b0b0b0;
+}
+
+/* My Portfolio*/
+.my-portfolio h2 {
+	margin-top: 0;
+}
+
+div.where a:hover, .my-portfolio a:hover {
+	color: #58801a;
+}
+
+aside h2 span.my-portfolio {
+	background: url(../images/lovefolio.png) no-repeat 222px 7px;
+}
+
+.my-portfolio img {
+	border: 10px solid #d4d4d4;
+	display: block;
+	margin: 0 auto 10px;
+}
+
+.my-portfolio a {
+	margin-left: 5px;
+}
+
+/*************** Main Portfolio Page ***************/
+article.main-portfolio {
+	height: 160px;
+	background: url(../images/menu-separate.png) repeat-x left bottom;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	width: 527px;
+}
+
+.main-portfolio h3 {
+	font-size: 14px;
+}
+
+article.main-portfolio img {
+	float: left;
+	border: 10px solid #d4d4d4;
+	margin-right: 20px;
+}
+
+.portfolio p {
+	margin: 18px 0 10px 0;
+	line-height: 23px;
+}
+
+h2.portfolio-title {
+	height: 40px;
+	font-size: 30px;
+	background: #8ab546;
+	color: #fff;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	box-shadow: 4px 5px 1px #d4d4d4;
+}
+
+span.portfolio-title-text {
+	padding: 2px 0 0 10px;
+	display: block;
+	background: url(../images/lovefolio.png) no-repeat 492px 7px;
+}

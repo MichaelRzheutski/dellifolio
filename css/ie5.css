@@ -1,0 +1,124 @@
+/*************** Making Elements Block ***************/
+header, footer, nav, section, article {
+	display: block;
+}
+
+/*************** Common Styles ***************/
+body {
+	text-align: center;
+}
+
+/*************** header ***************/
+header {
+	height: 0;
+}
+
+/*************** Navigation ***************/
+#menu-wrap {
+	border-bottom: none;
+}
+
+nav ul li.last {
+ margin-right: 0;
+}
+
+.follow-me {
+	display: none;
+}
+
+/*************** Slider ***************/
+#slider-wrap {
+	display: none;
+}
+
+/*************** Content ***************/
+section {
+	background: none;
+}
+
+/*************** About Content Left ***************/
+.about {
+	position: absolute;
+	left: 23px;
+	margin: 0 35px;
+}
+
+/*************** Main Content ***************/
+#content-wrap {
+	background: none;
+	margin-top: 20px;
+}
+#content h1.main-title {
+	margin: 0 40px 25px;
+}
+
+article.about-me {
+	position: absolute;
+	left: 0;
+}
+
+article.my-portfolio-index {
+	position: absolute;
+	left: 316px;
+}
+
+article.contact-me {
+	position: relative;
+	left: 572px;
+}
+
+/*************** About Sidebar ***************/
+.information h2 {
+	margin-bottom: 15px;
+}
+
+.information-menu {
+	padding-bottom: 25px;
+}
+
+/*************** Portfolio Sidebar ***************/
+.my-portfolio img{
+	margin-left: 7px;
+}
+
+/*************** Portfolio Content ***************/
+.portfolio {
+	margin-left: 29px;
+}
+
+/*************** Sidebar ***************/
+aside {
+	position: absolute;
+	right: 0;
+}
+
+/*************** Feedback ***************/
+form {
+	margin-top: -20px;
+}
+
+legend {
+	margin-left: -6px;
+	margin-bottom: 0;
+}
+
+form input.full-name, input.email {
+	padding-top: 8px;
+	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=4, offY=4, color=#e0e0e0);
+}
+
+form textarea {
+	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=4, offY=4, color=#e0e0e0);
+}
+
+form input.send {
+	margin-top: 5px;
+	margin-right: 7px;
+	background: #3a65ad;
+	cursor: hand;
+}
+
+/*************** Footer ***************/
+footer ul li.last-item {
+	border-right: none;
+}

@@ -1,0 +1,29 @@
+/*************** Making Elements Block ***************/
+header, footer, nav, section, article {
+	display: block;
+}
+
+/* Container Class */
+.container {
+	text-align: center;
+}
+
+/*************** Navigation ***************/
+nav ul li.last {
+ margin-right: 0;
+}
+
+/*************** Feedback ***************/
+form input.full-name, input.email {
+	padding-top: 8px;
+	height: 33px;
+	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=4, offY=4, color=#e0e0e0);
+}
+
+.send {
+	background: #3a65ad;
+}
+/*************** Footer ***************/
+footer ul li.last-item {
+	border-right: none;
+}

@@ -1,0 +1,69 @@
+/*************** Making Elements Block ***************/
+header, footer, nav, section, article {
+	display: block;
+}
+
+/*************** Navigation ***************/
+nav ul li.last {
+ margin-right: 0;
+}
+
+/*************** About Sidebar ***************/
+.information h2 {
+	margin-bottom: 15px;
+}
+
+.information-menu {
+	padding-bottom: 25px;
+}
+
+/*************** Portfolio Sidebar ***************/
+.my-portfolio img {
+	margin-top: -5px;
+}
+
+/*************** Main Content ***************/
+#content h1.main-title {
+	margin: 0 40px 25px;
+}
+
+.about-me h2, .my-portfolio-index h2, .contact-me h2 {
+	margin-bottom: -4px;
+}
+
+/* About Content */
+.about p {
+	margin: 15px 0;
+}
+
+/*************** Feedback ***************/
+legend {
+	margin-left: -6px;
+	margin-bottom: 10px;
+}
+
+div.message-wrap, div.email {
+	margin-top: -5px;
+}
+
+form input.full-name, input.email {
+	margin-top: -15px;
+	padding-top: 8px;
+	height: 33px;
+	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=4, offY=4, color=#e0e0e0);
+}
+
+form textarea {
+	margin-top: -15px;
+	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=4, offY=4, color=#e0e0e0);
+}
+
+form input.send {
+	margin-top: 5px;
+	background: #3a65ad;
+}
+
+/*************** Footer ***************/
+footer ul li.last-item {
+	border-right: none;
+}
