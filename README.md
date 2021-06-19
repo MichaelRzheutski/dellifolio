@@ -4,6 +4,6 @@ Desktop First. Фиксированная вёрстка с использова
 
 Используемые технологии: **HTML5**, **CSS3**, **JavaScript**, **jQuery**, **Git**.
 
-![DELLiFOLiO - Entire-Page](dellifolio.png)
-![DELLiFOLiO - About](dellifolio-about.png)
-![DELLiFOLiO - Work](dellifolio-work.png)
+![DELLiFOLiO - Entire-Page](dellifolio.jpg)
+![DELLiFOLiO - About](dellifolio-about.jpg)
+![DELLiFOLiO - Work](dellifolio-work.jpg)
